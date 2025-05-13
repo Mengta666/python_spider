@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="初次提交">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="更新更改">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +176,7 @@
       <workItem from="1747120934805" duration="926000" />
       <workItem from="1747121880617" duration="212000" />
       <workItem from="1747122125753" duration="5905000" />
-      <workItem from="1747128061872" duration="3485000" />
+      <workItem from="1747128061872" duration="3890000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <option name="closed" value="true" />
@@ -298,7 +298,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747130122230</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747133123821</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1747133123821</updated>
+    </task>
+    <task id="LOCAL-00017" summary="更新更改">
+      <option name="closed" value="true" />
+      <created>1747133396702</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1747133396702</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +348,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="修正" />
     <MESSAGE value="初次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="初次提交" />
+    <MESSAGE value="更新更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新更改" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/spider$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1746975343873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/anaconda3/envs/spider/Lib/site-packages/pyautogui" />
