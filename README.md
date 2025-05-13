@@ -1,0 +1,3 @@
+这是一个python 爬虫仓库
+learn中是静态页面爬虫，例如requests库等操作
+selenium中是动态页面爬虫，包含了如何过验证码检测等代码
