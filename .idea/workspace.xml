@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="初次提交">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mengta666 &lt;qc18585280717@126.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;Mengta666&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;Mengta666&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mengta666/python_spider.git&quot;,
+    &quot;accountId&quot;: &quot;f61bf21b-6f0e-4c31-a317-e7760f06abd4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2wid2qomDqD9AYtghHvilyzi13L" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript 调试.hello.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Acfun  视频下载.executor": "Run",
+    "Python.CalculateDistance.executor": "Run",
+    "Python.Xpath.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.asyncio_picture.executor": "Run",
+    "Python.bs4.executor": "Run",
+    "Python.bs4_test.executor": "Run",
+    "Python.b站视频下载.executor": "Run",
+    "Python.chaojiying.executor": "Run",
+    "Python.errorhandler.executor": "Run",
+    "Python.re.executor": "Run",
+    "Python.selenium_1.executor": "Run",
+    "Python.selenium_2.executor": "Run",
+    "Python.selenium_authentic_1.executor": "Run",
+    "Python.selenium_authentic_picture.executor": "Run",
+    "Python.selenium_authentic_slider.executor": "Run",
+    "Python.selenium_bili.executor": "Run",
+    "Python.selenium_test.executor": "Run",
+    "Python.selenium_tianya.executor": "Run",
+    "Python.selenium_ticket.executor": "Run",
+    "Python.selenium_yemian.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.thread_Novel.executor": "Run",
+    "Python.thread_test.executor": "Run",
+    "Python.快手视频下载.executor": "Run",
+    "Python.王者荣耀图片爬取.executor": "Run",
+    "Python.虎牙视频下载.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\spider\learn" />
+      <recent name="E:\python\spider\selenium" />
+      <recent name="E:\python\spider\selenium\picture" />
+      <recent name="E:\python\spider\selenium\picture\douban" />
+      <recent name="E:\python\spider\selenuim" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/spider/learn/hello.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript 调试.hello.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.122" />
+        <option value="bundled-python-sdk-880ecab49056-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.122" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="" />
+      <created>1746528123896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746528123896</updated>
+      <workItem from="1746528124970" duration="3655000" />
+      <workItem from="1746532495723" duration="5663000" />
+      <workItem from="1746613382531" duration="23000" />
+      <workItem from="1746613695851" duration="354000" />
+      <workItem from="1746668043053" duration="10546000" />
+      <workItem from="1746766152646" duration="15422000" />
+      <workItem from="1746782038419" duration="13019000" />
+      <workItem from="1746846806179" duration="325000" />
+      <workItem from="1746847198969" duration="413000" />
+      <workItem from="1746923505779" duration="10449000" />
+      <workItem from="1746937656242" duration="17111000" />
+      <workItem from="1746963751849" duration="1569000" />
+      <workItem from="1746965560265" duration="16154000" />
+      <workItem from="1747005706647" duration="10632000" />
+      <workItem from="1747016432605" duration="369000" />
+      <workItem from="1747016824626" duration="2655000" />
+      <workItem from="1747019506833" duration="35000" />
+      <workItem from="1747049028345" duration="5551000" />
+      <workItem from="1747097453542" duration="635000" />
+      <workItem from="1747098360184" duration="223000" />
+      <workItem from="1747098592421" duration="12013000" />
+      <workItem from="1747114093409" duration="36000" />
+      <workItem from="1747114314977" duration="190000" />
+      <workItem from="1747114512727" duration="1715000" />
+      <workItem from="1747116239756" duration="514000" />
+      <workItem from="1747116761987" duration="321000" />
+      <workItem from="1747117100268" duration="205000" />
+      <workItem from="1747117313531" duration="99000" />
+      <workItem from="1747117423187" duration="197000" />
+      <workItem from="1747117627462" duration="108000" />
+      <workItem from="1747117743544" duration="77000" />
+      <workItem from="1747117828066" duration="3092000" />
+      <workItem from="1747120934805" duration="926000" />
+      <workItem from="1747121880617" duration="212000" />
+      <workItem from="1747122125753" duration="5905000" />
+      <workItem from="1747128061872" duration="3485000" />
+    </task>
+    <task id="LOCAL-00001" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747115290954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747115290954</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747115388361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747115388361</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747115849572</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747115849572</updated>
+    </task>
+    <task id="LOCAL-00004" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747115916683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747115916683</updated>
+    </task>
+    <task id="LOCAL-00005" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747116177287</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747116177287</updated>
+    </task>
+    <task id="LOCAL-00006" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747116322875</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747116322875</updated>
+    </task>
+    <task id="LOCAL-00007" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747116515184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747116515184</updated>
+    </task>
+    <task id="LOCAL-00008" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747117299059</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747117299059</updated>
+    </task>
+    <task id="LOCAL-00009" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747117885386</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747117885386</updated>
+    </task>
+    <task id="LOCAL-00010" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747120979885</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747120979885</updated>
+    </task>
+    <task id="LOCAL-00011" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747121610649</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747121610649</updated>
+    </task>
+    <task id="LOCAL-00012" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747121789790</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747121789790</updated>
+    </task>
+    <task id="LOCAL-00013" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747121914828</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1747121914828</updated>
+    </task>
+    <task id="LOCAL-00014" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747126363581</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1747126363581</updated>
+    </task>
+    <task id="LOCAL-00015" summary="初次提交">
+      <option name="closed" value="true" />
+      <created>1747130122230</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747130122230</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT_PROFILE" value="Default" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="修正" />
+    <MESSAGE value="初次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初次提交" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spider$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1746975343873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/anaconda3/envs/spider/Lib/site-packages/pyautogui" />
+    <SUITE FILE_PATH="coverage/spider$selenium_tianya.coverage" NAME="selenium_tianya 覆盖结果" MODIFIED="1746942106230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$re.coverage" NAME="re 覆盖结果" MODIFIED="1746613788990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$selenium_test.coverage" NAME="selenium_test 覆盖结果" MODIFIED="1746937926096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$selenium_authentic_slider.coverage" NAME="selenium_authentic_slider 覆盖结果" MODIFIED="1747049412199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$CalculateDistance.coverage" NAME="CalculateDistance 覆盖结果" MODIFIED="1747012191054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$selenium_yemian.coverage" NAME="selenium_yemian 覆盖结果" MODIFIED="1746949381471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$thread_test.coverage" NAME="thread_test 覆盖结果" MODIFIED="1746795235751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$test.coverage" NAME="test 覆盖结果" MODIFIED="1746795052104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$bs4_test.coverage" NAME="bs4_test 覆盖结果" MODIFIED="1746769295721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$bs4.coverage" NAME="bs4 覆盖结果" MODIFIED="1746766451947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$selenium_2.coverage" NAME="selenium_2 覆盖结果" MODIFIED="1746941015427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$selenium_ticket.coverage" NAME="selenium_ticket 覆盖结果" MODIFIED="1746967904396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$selenium_bili.coverage" NAME="selenium_bili 覆盖结果" MODIFIED="1747051931368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$selenium_authentic_1.coverage" NAME="selenium_authentic_1 覆盖结果" MODIFIED="1746972574714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$Acfun__.coverage" NAME="Acfun  视频下载 覆盖结果" MODIFIED="1747110368387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$.coverage" NAME="快手视频下载 覆盖结果" MODIFIED="1747129841474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$selenium_authentic_picture.coverage" NAME="selenium_authentic_picture 覆盖结果" MODIFIED="1747007951668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$thread_Novel.coverage" NAME="thread_Novel 覆盖结果" MODIFIED="1746847589945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$selenium_1.coverage" NAME="selenium_1 覆盖结果" MODIFIED="1746938896975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$Xpath.coverage" NAME="Xpath 覆盖结果" MODIFIED="1746678196215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$b.coverage" NAME="b站视频下载 覆盖结果" MODIFIED="1747120814070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$chaojiying.coverage" NAME="chaojiying 覆盖结果" MODIFIED="1746969228702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chaojiying_Python" />
+    <SUITE FILE_PATH="coverage/spider$errorhandler.coverage" NAME="errorhandler 覆盖结果" MODIFIED="1746969881110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/anaconda3/envs/spider/Lib/site-packages/selenium/webdriver/remote" />
+    <SUITE FILE_PATH="coverage/spider$asyncio_picture.coverage" NAME="asyncio_picture 覆盖结果" MODIFIED="1746931423418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+  </component>
+</project>
