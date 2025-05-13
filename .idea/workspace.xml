@@ -55,57 +55,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript 调试.hello.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Acfun  视频下载.executor": "Run",
-    "Python.CalculateDistance.executor": "Run",
-    "Python.Xpath.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.asyncio_picture.executor": "Run",
-    "Python.bs4.executor": "Run",
-    "Python.bs4_test.executor": "Run",
-    "Python.b站视频下载.executor": "Run",
-    "Python.chaojiying.executor": "Run",
-    "Python.errorhandler.executor": "Run",
-    "Python.re.executor": "Run",
-    "Python.selenium_1.executor": "Run",
-    "Python.selenium_2.executor": "Run",
-    "Python.selenium_authentic_1.executor": "Run",
-    "Python.selenium_authentic_picture.executor": "Run",
-    "Python.selenium_authentic_slider.executor": "Run",
-    "Python.selenium_bili.executor": "Run",
-    "Python.selenium_test.executor": "Run",
-    "Python.selenium_tianya.executor": "Run",
-    "Python.selenium_ticket.executor": "Run",
-    "Python.selenium_yemian.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.thread_Novel.executor": "Run",
-    "Python.thread_test.executor": "Run",
-    "Python.快手视频下载.executor": "Run",
-    "Python.王者荣耀图片爬取.executor": "Run",
-    "Python.虎牙视频下载.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "http.proxy",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript 调试.hello.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Acfun  视频下载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CalculateDistance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Xpath.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.asyncio_picture.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bs4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bs4_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.b站视频下载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chaojiying.executor&quot;: &quot;Run&quot;,
+    &quot;Python.errorhandler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.re.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_authentic_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_authentic_picture.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_authentic_slider.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_bili.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_tianya.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_ticket.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_yemian.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.thread_Novel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.thread_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.快手视频下载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.王者荣耀图片爬取.executor&quot;: &quot;Run&quot;,
+    &quot;Python.虎牙视频下载.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\python\spider\learn" />
@@ -177,6 +177,8 @@
       <workItem from="1747121880617" duration="212000" />
       <workItem from="1747122125753" duration="5905000" />
       <workItem from="1747128061872" duration="3890000" />
+      <workItem from="1747133531157" duration="126000" />
+      <workItem from="1747133679791" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <option name="closed" value="true" />
@@ -314,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747133396702</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="更新更改">
+      <option name="closed" value="true" />
+      <created>1747133590445</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1747133590445</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +341,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
