@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="更正">
-      <change afterPath="$PROJECT_DIR$/java_script/函数.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_script/数组.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/变量.js" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/变量.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="更正" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +59,8 @@
     "JavaScript 调试.hello.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Node.js.函数.js.executor": "Run",
+    "Node.js.函数与对象.js.executor": "Run",
+    "Node.js.判断与循环.js.executor": "Run",
     "Node.js.变量.js.executor": "Run",
     "Node.js.数组.js.executor": "Run",
     "Python.Acfun  视频下载.executor": "Run",
@@ -107,6 +103,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "E:\\python\\PyCharm 2024.3.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -194,7 +191,7 @@
       <workItem from="1747196205772" duration="61000" />
       <workItem from="1747196284590" duration="629000" />
       <workItem from="1747196924356" duration="4542000" />
-      <workItem from="1747218109209" duration="889000" />
+      <workItem from="1747218109209" duration="1863000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <option name="closed" value="true" />
@@ -364,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747196966647</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="更正">
+      <option name="closed" value="true" />
+      <created>1747219932797</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1747219932797</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

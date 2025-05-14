@@ -6,7 +6,7 @@
 // })(1,2)
 // console.log(a)
 // 自执行函数写法2
-//  a =    (function (a,b){
+//  a =    (function func (a,b){
 //     return a+b
 // }(1,2))
 // console.log(a)
