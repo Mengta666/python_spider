@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="更正">
+      <change afterPath="$PROJECT_DIR$/java_script/函数.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_script/数组.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_script/变量.js" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/变量.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,9 @@
   "keyToString": {
     "JavaScript 调试.hello.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.函数.js.executor": "Run",
     "Node.js.变量.js.executor": "Run",
+    "Node.js.数组.js.executor": "Run",
     "Python.Acfun  视频下载.executor": "Run",
     "Python.CalculateDistance.executor": "Run",
     "Python.Xpath.executor": "Run",
@@ -187,6 +193,8 @@
       <workItem from="1747146490707" duration="202000" />
       <workItem from="1747196205772" duration="61000" />
       <workItem from="1747196284590" duration="629000" />
+      <workItem from="1747196924356" duration="4542000" />
+      <workItem from="1747218109209" duration="889000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <option name="closed" value="true" />
@@ -348,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747196881035</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="更正">
+      <option name="closed" value="true" />
+      <created>1747196966647</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1747196966647</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,13 +407,13 @@
     <SUITE FILE_PATH="coverage/spider$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1746975343873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/anaconda3/envs/spider/Lib/site-packages/pyautogui" />
     <SUITE FILE_PATH="coverage/spider$selenium_tianya.coverage" NAME="selenium_tianya 覆盖结果" MODIFIED="1746942106230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$re.coverage" NAME="re 覆盖结果" MODIFIED="1746613788990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
-    <SUITE FILE_PATH="coverage/spider$selenium_authentic_slider.coverage" NAME="selenium_authentic_slider 覆盖结果" MODIFIED="1747049412199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$selenium_test.coverage" NAME="selenium_test 覆盖结果" MODIFIED="1746937926096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$selenium_authentic_slider.coverage" NAME="selenium_authentic_slider 覆盖结果" MODIFIED="1747049412199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$CalculateDistance.coverage" NAME="CalculateDistance 覆盖结果" MODIFIED="1747012191054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$selenium_yemian.coverage" NAME="selenium_yemian 覆盖结果" MODIFIED="1746949381471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$thread_test.coverage" NAME="thread_test 覆盖结果" MODIFIED="1746795235751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
-    <SUITE FILE_PATH="coverage/spider$test.coverage" NAME="test 覆盖结果" MODIFIED="1746795052104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
     <SUITE FILE_PATH="coverage/spider$bs4_test.coverage" NAME="bs4_test 覆盖结果" MODIFIED="1746769295721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$test.coverage" NAME="test 覆盖结果" MODIFIED="1747197724372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
     <SUITE FILE_PATH="coverage/spider$bs4.coverage" NAME="bs4 覆盖结果" MODIFIED="1746766451947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
     <SUITE FILE_PATH="coverage/spider$selenium_2.coverage" NAME="selenium_2 覆盖结果" MODIFIED="1746941015427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$selenium_ticket.coverage" NAME="selenium_ticket 覆盖结果" MODIFIED="1746967904396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
