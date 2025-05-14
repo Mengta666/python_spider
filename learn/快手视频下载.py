@@ -5,6 +5,7 @@ import os
 import time
 import re
 
+
 header = {
 'content-type ':'application/json',
 'Host':'www.kuaishou.com',
