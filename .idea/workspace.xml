@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="更正" />
+    <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="更改">
+      <change afterPath="$PROJECT_DIR$/java_script/jQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_script/一个天气预报网页/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_script/一个天气预报网页/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_script/一个天气预报网页/token_json/token.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_script/一个天气预报网页/爬虫.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_script/面向对象.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_script/函数与对象.js" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/函数与对象.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/picture/douban/back_picture.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/picture/douban/back_picture.jpeg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -56,17 +67,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript 调试.hello.html.executor": "Run",
+    "JavaScript 调试.index.html.executor": "Run",
+    "JavaScript 调试.jQuery.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.作用域.js.executor": "Run",
     "Node.js.函数.js.executor": "Run",
     "Node.js.函数与对象.js.executor": "Run",
     "Node.js.判断与循环.js.executor": "Run",
     "Node.js.变量.js.executor": "Run",
     "Node.js.数组.js.executor": "Run",
+    "Node.js.面向对象.js.executor": "Run",
     "Python.Acfun  视频下载.executor": "Run",
     "Python.CalculateDistance.executor": "Run",
     "Python.Xpath.executor": "Run",
     "Python.__init__.executor": "Run",
+    "Python.app.executor": "Run",
     "Python.asyncio_picture.executor": "Run",
     "Python.bs4.executor": "Run",
     "Python.bs4_test.executor": "Run",
@@ -88,6 +105,7 @@
     "Python.thread_Novel.executor": "Run",
     "Python.thread_test.executor": "Run",
     "Python.快手视频下载.executor": "Run",
+    "Python.爬虫.executor": "Run",
     "Python.王者荣耀图片爬取.executor": "Run",
     "Python.虎牙视频下载.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -191,7 +209,9 @@
       <workItem from="1747196205772" duration="61000" />
       <workItem from="1747196284590" duration="629000" />
       <workItem from="1747196924356" duration="4542000" />
-      <workItem from="1747218109209" duration="1863000" />
+      <workItem from="1747218109209" duration="5636000" />
+      <workItem from="1747265565312" duration="605000" />
+      <workItem from="1747482554264" duration="11840000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <option name="closed" value="true" />
@@ -369,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747219932797</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="更改">
+      <option name="closed" value="true" />
+      <created>1747221013333</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1747221013333</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,26 +434,28 @@
     <MESSAGE value="更新更改" />
     <MESSAGE value="更名" />
     <MESSAGE value="更正" />
-    <option name="LAST_COMMIT_MESSAGE" value="更正" />
+    <MESSAGE value="更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/spider$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1746975343873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/anaconda3/envs/spider/Lib/site-packages/pyautogui" />
     <SUITE FILE_PATH="coverage/spider$selenium_tianya.coverage" NAME="selenium_tianya 覆盖结果" MODIFIED="1746942106230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$re.coverage" NAME="re 覆盖结果" MODIFIED="1746613788990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
-    <SUITE FILE_PATH="coverage/spider$selenium_test.coverage" NAME="selenium_test 覆盖结果" MODIFIED="1746937926096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$selenium_authentic_slider.coverage" NAME="selenium_authentic_slider 覆盖结果" MODIFIED="1747049412199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$selenium_test.coverage" NAME="selenium_test 覆盖结果" MODIFIED="1746937926096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$CalculateDistance.coverage" NAME="CalculateDistance 覆盖结果" MODIFIED="1747012191054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$selenium_yemian.coverage" NAME="selenium_yemian 覆盖结果" MODIFIED="1746949381471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$thread_test.coverage" NAME="thread_test 覆盖结果" MODIFIED="1746795235751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
     <SUITE FILE_PATH="coverage/spider$bs4_test.coverage" NAME="bs4_test 覆盖结果" MODIFIED="1746769295721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
     <SUITE FILE_PATH="coverage/spider$test.coverage" NAME="test 覆盖结果" MODIFIED="1747197724372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$app.coverage" NAME="app 覆盖结果" MODIFIED="1747494526233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/java_script/一个天气预报网页" />
     <SUITE FILE_PATH="coverage/spider$bs4.coverage" NAME="bs4 覆盖结果" MODIFIED="1746766451947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
     <SUITE FILE_PATH="coverage/spider$selenium_2.coverage" NAME="selenium_2 覆盖结果" MODIFIED="1746941015427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$selenium_ticket.coverage" NAME="selenium_ticket 覆盖结果" MODIFIED="1746967904396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$selenium_bili.coverage" NAME="selenium_bili 覆盖结果" MODIFIED="1747051931368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$selenium_authentic_1.coverage" NAME="selenium_authentic_1 覆盖结果" MODIFIED="1746972574714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$Acfun__.coverage" NAME="Acfun  视频下载 覆盖结果" MODIFIED="1747110368387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
-    <SUITE FILE_PATH="coverage/spider$.coverage" NAME="快手视频下载 覆盖结果" MODIFIED="1747146540036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$.coverage" NAME="爬虫 覆盖结果" MODIFIED="1747494548289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/java_script/一个天气预报网页" />
     <SUITE FILE_PATH="coverage/spider$selenium_authentic_picture.coverage" NAME="selenium_authentic_picture 覆盖结果" MODIFIED="1747007951668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$thread_Novel.coverage" NAME="thread_Novel 覆盖结果" MODIFIED="1746847589945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
     <SUITE FILE_PATH="coverage/spider$selenium_1.coverage" NAME="selenium_1 覆盖结果" MODIFIED="1746938896975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />

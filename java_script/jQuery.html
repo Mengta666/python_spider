@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+<script>
+    $(function () {
+        $("#b1").click(function (){
+            var t1 = $("#t1").val()
+            var content = "内容为：" + t1
+            $("#d1").html(content)
+        })
+
+    })
+
+</script>
+
+<input id="t1" ><button id="b1"> 确认 </button>
+    <br>
+<div id="d1"></div>
+
+</body>
+</html>
+
+
+<!--假如不适用jQuery
+
+<script>
+    window.onload  = function () {
+        document.getElementById("b1").onclick = function () {
+            var t1 = document.getElementById("t1").value
+            var content = "内容为：" + t1
+            document.getElementById("d1").innerHTML = content
+        }
+    }
+
+</script>
+
+
+-->
