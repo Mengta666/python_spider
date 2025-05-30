@@ -13,7 +13,7 @@ selenium中是动态页面爬虫，包含了如何过验证码检测等代码，
 #### 安装方式
 1. 将LowEndTalk目录下的所有内容克隆到你的服务器的 /opt/LowEndTalk/ 文件夹下，
 ```mkdir -p /opt/LowEndTalk/ ```
-,你也可以自定义，你需要修改 1_LowEndTalk.sh 中的 *SCRIPT_PATH* 与 *LOG_PATH* 为你的自定义目录（别修改文件名）;
+,你也可以自定义，你需要修改所有的绝对路径为你的自定义目录（别修改文件名）;
 2. 去 env/LowEndTalk 中配置机器人 *Token* 和 *chat_id*（必须）;
 3. 添加可执行权限 ``` chmod +x 1_LowEndTalk.sh ```;
 4. 当前目录下运行 1_LowEndTalk.sh ，将进行全自动安装（你也可以手动安装）：```bash 1_LowEndTalk.sh```;
