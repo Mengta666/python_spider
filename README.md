@@ -20,6 +20,8 @@ selenium中是动态页面爬虫，包含了如何过验证码检测等代码，
 3. 再运行 2_cron_lowendtalk.sh ，你可以直接获取到当天截止到目前的所有offer信息 ```bash 2_cron_lowendtalk.sh```;
 4. 完毕
 
+注：没有做*python3-venv*判断，假如因为*python3-venv*安装失败，根据提示安装*python3-venv*即可，例Debian/Ubuntu：```apt-get install python3-venv```
+
 ---
 
 # 有什么好的项目可以联系我邮箱，有时间我会考虑开发：mengta6664@gmail.com
