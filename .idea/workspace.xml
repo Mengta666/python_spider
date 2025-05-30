@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="天气预报小网站" />
+    <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="js学习">
+      <change afterPath="$PROJECT_DIR$/小项目/LowEndTalk/1_LowEndTalk.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小项目/LowEndTalk/2_cron_lowendtalk.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小项目/LowEndTalk/LowEndTalk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小项目/LowEndTalk/env/LowEndTalk.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小项目/LowEndTalk/log/LowEndTalk.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小项目/LowEndTalk/log/cron_app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小项目/LowEndTalk/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小项目/chromedriver-win64/LICENSE.chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小项目/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小项目/chromedriver-win64/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小项目/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -429,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747494811409</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="js学习">
+      <option name="closed" value="true" />
+      <created>1748598334807</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1748598334807</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +494,8 @@
     <MESSAGE value="更正" />
     <MESSAGE value="更改" />
     <MESSAGE value="天气预报小网站" />
-    <option name="LAST_COMMIT_MESSAGE" value="天气预报小网站" />
+    <MESSAGE value="js学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="js学习" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/spider$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1746975343873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/anaconda3/envs/spider/Lib/site-packages/pyautogui" />
