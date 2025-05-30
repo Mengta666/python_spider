@@ -12,16 +12,17 @@ from bs4 import BeautifulSoup
 from telegram import Bot
 
 # 加载环境变量
-dotenv.load_dotenv("env/LowEndTalk.env")
+dotenv.load_dotenv("/opt/LowEndTalk/env/LowEndTalk.env")
+
 # 加载环境变量
 token = os.getenv("telegram_bot_token_lowtalkend")
 chat_id = os.getenv("telegram_chat_id_lowtalkend")
 # 设置日志
-if not os.path.exists('log'):
-    os.mkdir('log')
+if not os.path.exists('/opt/LowEndTalk/log'):
+    os.mkdir('/opt/LowEndTalk/log')
 logging.basicConfig(level=logging.INFO,
                    format='%(asctime)s  [%(levelname)s]  %(filename)s:%(lineno)d  %(message)s',
-                   filename='log/LowEndTalk.log',
+                   filename='/opt/LowEndTalk/log/LowEndTalk.log',
                    filemode='w',
                    )
 # 获取当前的日期转为iso8601标准时间，网站所用的标准时间是这个
@@ -34,8 +35,8 @@ length = 0
 # 先读取存储的文件
 def read_file():
     global vps_info_old, url_old, length
-    if os.path.exists(f'vps_info/vps_info_total.json') and os.path.getsize(f'vps_info/vps_info_total.json') > 0:
-        with open(f'vps_info/vps_info_total.json', 'r', encoding='utf-8') as fp:
+    if os.path.exists(f'/opt/LowEndTalk/vps_info/vps_info_total.json') and os.path.getsize(f'/opt/LowEndTalk/vps_info/vps_info_total.json') > 0:
+        with open(f'/opt/LowEndTalk/vps_info/vps_info_total.json', 'r', encoding='utf-8') as fp:
             vps_info_old = json.load(fp)
     # print(vps_info_old)
     # 清理数据，将不是今天的数据全部移除
@@ -113,7 +114,7 @@ def save_file(vps_info_new):
         vps_info_total = vps_info_old + vps_info_new
     else:
         vps_info_total = vps_info_new
-    with open(f'vps_info/vps_info_total.json', 'w', encoding='utf-8') as fp:
+    with open(f'/opt/LowEndTalk/vps_info/vps_info_total.json', 'w', encoding='utf-8') as fp:
         if vps_info_total :
             json.dump(vps_info_total, fp=fp, ensure_ascii=False)
             logging.info(f"已将数据重新已保存数据到 vps_info_total.json 中")
@@ -121,8 +122,8 @@ def save_file(vps_info_new):
             # print(f'没有数据')
 
 async def main():
-    if not os.path.exists('vps_info'):
-        os.mkdir('vps_info')
+    if not os.path.exists('/opt/LowEndTalk/vps_info'):
+        os.mkdir('/opt/LowEndTalk/vps_info')
     # 读取存储的文件
     read_file()
 
@@ -146,9 +147,3 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
-
-
-
-
-
-
