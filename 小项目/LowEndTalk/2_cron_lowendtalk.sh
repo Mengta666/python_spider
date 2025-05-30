@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source LowEndTalk_env/bin/activate
-python3 LowEndTalk.py
+source /opt/LowEndTalk/LowEndTalk_env/bin/activate
+python3 /opt/LowEndTalk/LowEndTalk.py
 deactivate
