@@ -85,7 +85,7 @@ headers = {
     'Pragma': 'no-cache',
     'Referer': 'http://jx.381314.xyz/user/parse',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
-    'Cookie': 'XSRF-TOKEN=eyJpdiI6IkIzSXppUm9Xb1ZsYTRJZUtDU3JwNmc9PSIsInZhbHVlIjoiK2Nzai8vZ3ZLWHdtTHpGUTNFYWRCcUQwdjcrelJkb1ZEbjhZQ1dBV1F0dXdCTEhEYWhlYlF0TjRMTEFtTmUyYnhielNwWVc0alk3S3F6ZFd1emZKMFJJcytycUg4Sm4vTGdiUFVvdkhLVG5RV2RIU0hSKytmK0d6SlBUMHJiRjkiLCJtYWMiOiJmOTM4Yzg3OThjMWVmMjRiNjc0ODQ3OWU2MjI0M2RlZDc3MzliNTUxMjk0NzY0YjExMWE3ZDIyODNlZmIwYTYwIiwidGFnIjoiIn0%3D; _session=eyJpdiI6Ink3bjVSV1p1VnVQYmtJZG5IMDFYRHc9PSIsInZhbHVlIjoiTWVMSys1Z1prTUZ5ZzZIYmJ4TENjQml1RnExV2VHMEhpODRyRjNFRGxKN1pmS1R5WmEwU3dLT1MyZjhLSWQ3bDZ1ZTRMYWdzbEh1cFBOYWY2ZFhxU1E1a05ueS9pbWxwYzFJc1NvQ1crc1pPanJ1Y0ZDQnM0OERZMm5kWDNCam0iLCJtYWMiOiI3NDY1ZmIzYjRhNGZjNGZhMzZiNTFmYjA0MWNmZmUxZmE3MDk4YWYzMmQzODNkMDZkMmFiOGJlOTRkMjc0YTQ1IiwidGFnIjoiIn0%3D'
+    'Cookie': 'XSRF-TOKEN=eyJpdiI6Ijg2ZUVFZjNhZ2xOVVlFc0JIKzdNR2c9PSIsInZhbHVlIjoiL3hTckl1dFoxaDZNalJ6VW1ia3NoOHFaREZPL1dtY1Q4TERlNEJRNzdNMk1hOG9RSHAxbEtXUWxqc25ScWhvQll2SmZlS0RSZkVaRklQSlhrN282YW1vYjI1VHNUUTUyTzRIQjNDMnJRSXlJOG1yVWl3c0YwZEdUS0lxSE9UVGsiLCJtYWMiOiJlYTY5MTFiOWQ3ODU3YWVlN2I3MGFmNjM3YmU2NWQ3ODRkNDlkMjk4ZWRhNDRlZmE3OTY5MGRjZDFiZWRiNGIyIiwidGFnIjoiIn0%3D; _session=eyJpdiI6InU0dHBjSmNRUUZ6akJZQTU2SmFvY0E9PSIsInZhbHVlIjoid2NCMWFVMnlBZHBUVmNWM3dLMkF5SjdNc2hVZXVGaGpXYmlIL2owaERGeUFQL3VIemFnOHhrbkxsSE9FOU52Z2hnZGxuaDZNRDIwM3NFVk9lVU1CZlNEODJ5Nm1tRnZCOHJFYkhtdDIvZTRNY1Z6aHEybkp2NVZFTm5mRWtjWU8iLCJtYWMiOiI5ZDFmYzBlYTI5ODkzMTVjZDk0MWEwMzk3ZGYzYzljZjEzZjUyODY0NzFlZDNhYjI2MmQxNzc0ZWY5YmU5M2I3IiwidGFnIjoiIn0%3D'
 }
 
 # 新的
@@ -119,8 +119,9 @@ try :
         json=json_data,
         verify=False,
     )
-
     print(response.json())
+    with open("baidu.json", "w", encoding="utf-8") as f:
+        json.dump(response.json(), f, ensure_ascii=False)
 except Exception as e:
     print(e)
 
