@@ -11,6 +11,8 @@
   - 属性名称（例如颜色分类的名称，如 “K2黑色（INA226 36V）”）。
 - 将提取的数据配对，生成包含 `name`、`shuid`（即 `skuid`）、`vid`、`price` 和 `text`（库存状态）的 JSON 数据。
 - 输出结果为 JSON 格式，便于后续处理或存储。
+- 测试了好几个天猫商品，该脚本都可以成功提取到所需的数据。
+- 对于没有`mtopjsonppcdetail2`开头的返回内容，只需替换：`json_text = json.loads(response.text)`
 
 ## 依赖
 
@@ -34,7 +36,7 @@ pip install requests
 - 登录你的天猫/淘宝账号。
 - 按 F12 打开浏览器开发者工具（或右键点击页面，选择“检查”）。
 - 切换到 Network（网络） 面板。
-- 刷新页面，找到请求 URL 包含 mtop.taobao.pcdetail.data.get 的请求（通常是 JSONP 请求），例如；https://h5api.m.tmall.com/h5/mtop.taobao.pcdetail.data.get/1.0/?jsv=2.7.5&appKey=12574478&t=1749473185188&sign=b0192f97f08b5e4fcaf5d799b257f9c5&api=mtop.taobao.pcdetail.data.get&...。
+- 刷新页面，找到请求 URL 包含 mtop.taobao.pcdetail.data.get 的请求（通常是 JSONP 请求），例如；https://h5api.m.tmall.com/h5/mtop.taobao.pcdetail.data.get/1.0/?jsv=2.7.5&appKey=12574478&... 或 https://h5api.m.taobao.com/h5/mtop.taobao.pcdetail.data.get/1.0/... 。
 - 在请求的 Headers（请求头） 中，找到 Cookie 字段，复制全部 Cookie 值。
 - 打开脚本文件（main.py），将以下代码中的 'cookie': '' 替换为复制的 Cookie。
 - 保存，找ai给你写一个发送信息的额外函数即可。
