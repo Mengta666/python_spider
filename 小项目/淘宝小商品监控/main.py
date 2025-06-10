@@ -2,53 +2,82 @@ import requests
 import re
 import json
 
+
 headers = {
-    'accept': '*/*',
+    'accept': 'application/json',
     'accept-language': 'zh-CN,zh;q=0.9',
+    'bx-umidtoken': 'T2gAihzKj860LjBGhrq3nZLbW5dsQmxysXMRBkcSyYdVz3xC02Ee02a4eG3B6P8Vg3Y=',
     'cache-control': 'no-cache',
+    'content-type': 'application/x-www-form-urlencoded',
+    'origin': 'https://item.taobao.com',
     'pragma': 'no-cache',
-    'referer': 'https://detail.tmall.com/',
+    'priority': 'u=1, i',
+    'referer': 'https://item.taobao.com/',
     'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Windows"',
-    'sec-fetch-dest': 'script',
-    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
     'sec-fetch-site': 'same-site',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
+    'x-pipu2': "h%7Bdug%60ztggnoase%7D%232'h-7%25!g%2B%22u7*i99)9%3C-%24%7B*1%3B0%24%3A7%2B'%7B*1%3B0%24%3A7%2B'%7B*1%3B0%24%3A7%2B'%7Bo%7Boq",
     'cookie': ''
 }
 
+params = {
+    'jsv': '2.7.5',
+    'appKey': '12574478',
+    't': '1749478810387',
+    'sign': '481b0c255e262a0cf52cfb0cf5ae4350',
+    'api': 'mtop.taobao.pcdetail.data.get',
+    'v': '1.0',
+    'isSec': '0',
+    'ecode': '0',
+    'timeout': '10000',
+    'ttid': '2022@taobao_litepc_9.17.0',
+    'AntiFlood': 'true',
+    'AntiCreep': 'true',
+    'dataType': 'json',
+    'valueType': 'string',
+    'type': 'json',
+    'data': '{"id":"617219859305","detail_v":"3.3.2","exParams":"{\\"id\\":\\"617219859305\\",\\"priceTId\\":\\"213e07c917494783114667930e145e\\",\\"skuId\\":\\"4347871784889\\",\\"spm\\":\\"a21bo.tmall/a.201876.d18.77bac3d5BbbtSv\\",\\"utparam\\":\\"{\\\\\\"item_ctr\\\\\\":0.007128,\\\\\\"x_object_type\\\\\\":\\\\\\"p4p_item\\\\\\",\\\\\\"item_price\\\\\\":\\\\\\"44.8\\\\\\",\\\\\\"item_cvr\\\\\\":0.037043,\\\\\\"pc_scene\\\\\\":\\\\\\"20001\\\\\\",\\\\\\"aplus_abtest\\\\\\":\\\\\\"98c1e93d5515155cc9746aa4caf6bd6f\\\\\\",\\\\\\"tpp_buckets\\\\\\":\\\\\\"30986#418557#module\\\\\\",\\\\\\"ab_info\\\\\\":\\\\\\"30986#418557#-1#\\\\\\",\\\\\\"abid\\\\\\":\\\\\\"0\\\\\\",\\\\\\"pc_pvid\\\\\\":\\\\\\"c77535c3-0d06-44e8-8223-677f2762ddee\\\\\\",\\\\\\"mix_group\\\\\\":\\\\\\"\\\\\\",\\\\\\"item_ecpm\\\\\\":0.001283,\\\\\\"x_object_id\\\\\\":617219859305}\\",\\"xxc\\":\\"ad_ct\\",\\"queryParams\\":\\"id=617219859305&ltk2=1749478806940qd41py3eilwgpatpe73t7&priceTId=213e07c917494783114667930e145e&skuId=4347871784889&spm=a21bo.tmall%2Fa.201876.d18.77bac3d5BbbtSv&utparam=%7B%22item_ctr%22%3A0.007128%2C%22x_object_type%22%3A%22p4p_item%22%2C%22item_price%22%3A%2244.8%22%2C%22item_cvr%22%3A0.037043%2C%22pc_scene%22%3A%2220001%22%2C%22aplus_abtest%22%3A%2298c1e93d5515155cc9746aa4caf6bd6f%22%2C%22tpp_buckets%22%3A%2230986%23418557%23module%22%2C%22ab_info%22%3A%2230986%23418557%23-1%23%22%2C%22abid%22%3A%220%22%2C%22pc_pvid%22%3A%22c77535c3-0d06-44e8-8223-677f2762ddee%22%2C%22mix_group%22%3A%22%22%2C%22item_ecpm%22%3A0.001283%2C%22x_object_id%22%3A617219859305%7D&xxc=ad_ct\\",\\"domain\\":\\"https://item.taobao.com\\",\\"path_name\\":\\"/item.htm\\",\\"pcSource\\":\\"pcTaobaoMain\\",\\"appKey\\":\\"3q2+7wX9z8JkLmN1oP5QrStUvWxYzA0B\\",\\"refId\\":\\"tE98pXy+ryIcQEf0DFL/JQbpU8H3zoIqdjDZGlS2XI4=\\",\\"nonce\\":\\"Ee2tV0ThuXTDT4xJugMGTA==\\",\\"feTraceId\\":\\"b178fb1d-ab1c-4537-a914-30fd7350afdf\\"}"}',
+}
 
 response = requests.get(
-    'https://h5api.m.tmall.com/h5/mtop.taobao.pcdetail.data.get/1.0/?jsv=2.7.5&appKey=12574478&t=1749473185188&sign=b0192f97f08b5e4fcaf5d799b257f9c5&api=mtop.taobao.pcdetail.data.get&v=1.0&isSec=0&ecode=0&timeout=10000&ttid=2022%40taobao_litepc_9.17.0&AntiFlood=true&AntiCreep=true&jsonpIncPrefix=pcdetail&type=jsonp&dataType=jsonp&callback=mtopjsonppcdetail2&data=%7B%22id%22%3A%22897269589370%22%2C%22detail_v%22%3A%223.3.2%22%2C%22exParams%22%3A%22%7B%5C%22abbucket%5C%22%3A%5C%228%5C%22%2C%5C%22detail_redpacket_pop%5C%22%3A%5C%22true%5C%22%2C%5C%22id%5C%22%3A%5C%22897269589370%5C%22%2C%5C%22ns%5C%22%3A%5C%221%5C%22%2C%5C%22priceTId%5C%22%3A%5C%222147800a17494692675442492e1a32%5C%22%2C%5C%22query%5C%22%3A%5C%22%E7%BB%B4%E7%AE%80K2%5C%22%2C%5C%22skuId%5C%22%3A%5C%225921371470662%5C%22%2C%5C%22spm%5C%22%3A%5C%22a21n57.1.hoverItem.1%5C%22%2C%5C%22utparam%5C%22%3A%5C%22%7B%5C%5C%5C%22aplus_abtest%5C%5C%5C%22%3A%5C%5C%5C%2267d7ff917d55df6470995c710d096c04%5C%5C%5C%22%7D%5C%22%2C%5C%22xxc%5C%22%3A%5C%22taobaoSearch%5C%22%2C%5C%22queryParams%5C%22%3A%5C%22abbucket%3D8%26detail_redpacket_pop%3Dtrue%26id%3D897269589370%26ltk2%3D1749469269740yljzvjre5timovongdrcpc%26ns%3D1%26priceTId%3D2147800a17494692675442492e1a32%26query%3D%25E7%25BB%25B4%25E7%25AE%2580K2%26skuId%3D5921371470662%26spm%3Da21n57.1.hoverItem.1%26utparam%3D%257B%2522aplus_abtest%2522%253A%252267d7ff917d55df6470995c710d096c04%2522%257D%26xxc%3DtaobaoSearch%5C%22%2C%5C%22domain%5C%22%3A%5C%22https%3A%2F%2Fdetail.tmall.com%5C%22%2C%5C%22path_name%5C%22%3A%5C%22%2Fitem.htm%5C%22%2C%5C%22pcSource%5C%22%3A%5C%22pcTaobaoMain%5C%22%2C%5C%22appKey%5C%22%3A%5C%223q2%2B7wX9z8JkLmN1oP5QrStUvWxYzA0B%5C%22%2C%5C%22refId%5C%22%3A%5C%225DVyxO2JxeoubKVdIAx%2BPrbQc%2FYtWx4c2I6mI3sfh2M%3D%5C%22%2C%5C%22nonce%5C%22%3A%5C%22GF7eKjzaygHgB0l4e2ftBmWUdH6ajvnDOPi0qsyBGRQ%3D%5C%22%2C%5C%22feTraceId%5C%22%3A%5C%22068169a6-a07e-4784-8e99-a31d50e6746d%5C%22%7D%22%7D&bx-umidtoken=T2gAZ4CzS9vHOQF0NqmO-FIgYfQglAYSyzWkwpxHhNhV3Kr0KPktkG9smvmp9TQCX5s%3D&x-pipu2=h%257Bdug%2560ztlngjgsb%257D~*k5hg%253D%252B%253D%2520%253E7%253Dojf%2524.25%257B%2526j%257B*11%2750%2520%2526%253B%257B*11%2750%2520%2526%253B%257B*11%2750%2520%2526%253B%257Bo%257Bef&bx-ua=fast-load',
-    headers=headers
+    'https://h5api.m.taobao.com/h5/mtop.taobao.pcdetail.data.get/1.0/',
+    params=params,
+    headers=headers,
 )
 
-pattern = r'mtopjsonppcdetail2\((.*?)\)$'
 
-match = re.search(pattern, response.text, re.DOTALL)
-json_text = json.loads(match.group(1))
+# 1. 包含 mtopjsonppcdetail2的处理方式
+# pattern = r'mtopjsonppcdetail2\((.*?)\)$'
+# match = re.search(pattern, response.text, re.DOTALL)
+# json_text = json.loads(match.group(1))
+
+# 2. 不包含 mtopjsonppcdetail2的处理方式
+json_text = json.loads(response.text)
 # vid和 skuid
 vid_skuid = json_text['data']['skuBase']['skus']
 vid_skuid_json = []
 for i in vid_skuid:
     vid = i['propPath'].split(':')[1]
-    shuid_vid = {
+    skuid_vid = {
         'vid': vid,
         'skuid': i['skuId']
     }
-    vid_skuid_json.append(shuid_vid)
+    vid_skuid_json.append(skuid_vid)
 # id 和 价格
 price_status = json_text['data']['skuCore']['sku2info']
 price_id_json = []
-for vid_shuid  in vid_skuid_json:
-    shuid_text_price = {
-        'shuid': vid_shuid['skuid'],
-        'vid' : vid_shuid['vid'],
-        'price': price_status[vid_shuid['skuid']]['price']['priceText'],
-        'text': price_status[vid_shuid['skuid']]['quantityText']
+for vid_skuid  in vid_skuid_json:
+    skuid_text_price = {
+        'skuid': vid_skuid['skuid'],
+        'vid' : vid_skuid['vid'],
+        'price': price_status[vid_skuid['skuid']]['price']['priceText'],
+        'text': price_status[vid_skuid['skuid']]['quantityText']
     }
-    price_id_json.append(shuid_text_price)
+    price_id_json.append(skuid_text_price)
 # 名字 和 vid
 name_vid = json_text['data']['skuBase']['props'][0]['values']
 name_vid_json = {}
@@ -61,7 +90,7 @@ price_id_name_json = []
 for i in price_id_json:
     price_id_name_json.append({
         'name': name_vid_json[i['vid']],
-        'shuid': i['shuid'],
+        'skuid': i['skuid'],
         'vid': i['vid'],
         'price': i['price'],
         'text': i['text']
