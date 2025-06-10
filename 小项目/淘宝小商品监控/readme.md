@@ -9,7 +9,7 @@
   - 商品属性值 ID（`vid`）和 SKU ID（`skuid`）。
   - 每个 SKU 的价格（`priceText`）和库存状态（`quantityText`）。
   - 属性名称（例如颜色分类的名称，如 “K2黑色（INA226 36V）”）。
-- 将提取的数据配对，生成包含 `name`、`shuid`（即 `skuid`）、`vid`、`price` 和 `text`（库存状态）的 JSON 数据。
+- 将提取的数据配对，生成包含 `name`、`skuid`、`vid`、`price` 和 `text`（库存状态）的 JSON 数据。
 - 输出结果为 JSON 格式，便于后续处理或存储。
 - 测试了好几个天猫商品，该脚本都可以成功提取到所需的数据。
 - 对于没有`mtopjsonppcdetail2`开头的返回内容，只需替换：`json_text = json.loads(response.text)`
