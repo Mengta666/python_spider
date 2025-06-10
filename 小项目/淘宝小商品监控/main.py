@@ -67,7 +67,7 @@ for i in vid_skuid:
         'skuid': i['skuId']
     }
     vid_skuid_json.append(skuid_vid)
-# id 和 价格
+# skuid 和 价格
 price_status = json_text['data']['skuCore']['sku2info']
 price_id_json = []
 for vid_skuid  in vid_skuid_json:
