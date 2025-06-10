@@ -32,7 +32,7 @@ pip install requests
 - 获取登录后的 Cookie
 - 天猫的 API 请求需要登录后的 Cookie 来访问完整数据。以下是获取 Cookie 的步骤：
 
-- 打开浏览器（推荐 Chrome 或 Edge），访问天猫商品详情页（如 https://detail.tmall.com/item.htm?id=897269589370）。
+- 打开浏览器（推荐 Chrome 或 Edge），访问天猫商品详情页（如 https://detail.tmall.com/item.htm?id=897269589370 ）。
 - 登录你的天猫/淘宝账号。
 - 按 F12 打开浏览器开发者工具（或右键点击页面，选择“检查”）。
 - 切换到 Network（网络） 面板。
