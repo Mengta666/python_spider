@@ -1,11 +1,12 @@
 ### 这是一个python 爬虫仓库
 learn中是静态页面爬虫，例如requests库等操作
 
-selenium中是动态页面爬虫，包含了如何过验证码检测等代码，里面 CalculateDistance.py 包含了一个自动检测滑动验证码区域的类，可以直接使用，可以看我的另一个仓库，有深度学习预测滑块验证码位置
+selenium中是动态页面爬虫，包含了如何过验证码检测等代码，里面 CalculateDistance.py 包含了一个自动检测滑动验证码区域的类，可以直接使用，可以看我的[另一个仓库](https://github.com/Mengta666/slider_model)，有深度学习预测滑块验证码位置
 
 小项目中有各种各样的项目，监控脚本、下载脚本等等
 
-##
+## 2025年12月20日更新：提交知乎爬虫项目，包含cookie获取和定时任务刷cookie
+### 详细查看： [项目目录](https://github.com/Mengta666/python_spider/tree/master/project/zhihu)
 
 ## 2025年5月30日更新：LowEndTalk优惠信息监控
 1. 新做了一个LowEndTalk优惠信息监控网站爬虫，接入telegram机器人，当该网站每一天有新的offer时，会自动通过脚本发送给telegram机器人
