@@ -1,0 +1,1 @@
+[slider_fasterrcnn.pth](https://github.com/Mengta666/slider_model) 将[模型下载](https://github.com/Mengta666/slider_model)到该目录即可

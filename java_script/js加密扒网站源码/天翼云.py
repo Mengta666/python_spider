@@ -1,7 +1,7 @@
 import requests
 import execjs
 
-with  open(r'E:\python\spider\java_script\天翼云登录.js', 'r', encoding='utf-8') as f:
+with  open(r'/java_script/js加密扒网站源码/天翼云登录.js', 'r', encoding='utf-8') as f:
     js_code = f.read()
 
 

@@ -4,23 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="LowEndTalk 优惠监控 bug修复">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_script/G妹游戏登录.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_script/js加密扒网站源码/加密货币实时信息获取/mytoken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_script/js加密扒网站源码/加密货币实时信息获取/mytoken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_script/js加密扒网站源码/天翼云.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_script/js加密扒网站源码/贝壳找房/beike.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_script/js加密扒网站源码/贝壳找房/beike.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_script/js加密扒网站源码/贝壳找房/get_publickey.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_script/js加密扒网站源码/贝壳找房/贝壳登录.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_script/webpack 加载器.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_script/天翼云登录.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket爬取/test.py" afterDir="false" />
+    <list default="true" id="7de25c4d-5cec-4526-926c-1ee20af37001" name="更改" comment="天猫商品数据提取工具">
+      <change afterPath="$PROJECT_DIR$/java_script/代理与反射.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/chromedriver-win64/LICENSE.chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/chromedriver-win64/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/Scheduler_task/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/Scheduler_task/clear_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/Scheduler_task/refresh_cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/Scheduler_task/task_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/Scheduler_task/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/api/AES_256_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/api/cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/api/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/api/encrypt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/api/mongo_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/curl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/log/login.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/log/task.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/other.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/zhihu/zhihu/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/zhihu/zhihu/spiders/zhihu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/zhihu_login/check_cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/zhihu_login/click_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/zhihu_login/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/zhihu_login/login_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/zhihu_login/login_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/zhihu_login/slider_fasterrcnn.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/知乎逆向/81.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/知乎逆向/96.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/知乎逆向/browser-env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/zhihu/知乎逆向/puppeteer_81.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_test/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_test/scrapy_test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_test/说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/zhihu_login/click_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/zhihu_login/login_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/zhihu_login/slider_fasterrcnn.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/zhihu_login/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/zhihu_login/zhihu_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_script/G妹游戏登录.js" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/js加密扒网站源码/G妹游戏登录.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_script/js加密扒网站源码/天翼云.py" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/js加密扒网站源码/天翼云.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_script/webpack 加载器.js" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/webpack 加载器.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_script/天翼云登录.js" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/js加密扒网站源码/天翼云登录.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/chromedriver-win64/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/chromedriver-win64/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/小项目/chromedriver-win64/LICENSE.chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/小项目/chromedriver-win64/LICENSE.chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/小项目/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/小项目/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/小项目/chromedriver-win64/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/小项目/chromedriver-win64/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +81,17 @@
         <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -78,117 +130,135 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript 调试.hello.html.executor": "Run",
-    "JavaScript 调试.index.html.executor": "Run",
-    "JavaScript 调试.jQuery.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.G妹游戏登录.js.executor": "Run",
-    "Node.js.beike.js.executor": "Run",
-    "Node.js.caizhao.js.executor": "Run",
-    "Node.js.hash_test.js.executor": "Run",
-    "Node.js.mytoken.js.executor": "Run",
-    "Node.js.test.js.executor": "Run",
-    "Node.js.webpack 加载器.js.executor": "Run",
-    "Node.js.作用域.js.executor": "Run",
-    "Node.js.函数.js.executor": "Run",
-    "Node.js.函数与对象.js.executor": "Run",
-    "Node.js.判断与循环.js.executor": "Run",
-    "Node.js.变量.js.executor": "Run",
-    "Node.js.天翼云登录.js.executor": "Run",
-    "Node.js.对称加密.js.executor": "Run",
-    "Node.js.数组.js.executor": "Run",
-    "Node.js.非对称加密.js.executor": "Run",
-    "Node.js.面向对象.js.executor": "Run",
-    "Python.Acfun  视频下载.executor": "Run",
-    "Python.CalculateDistance.executor": "Run",
-    "Python.LowEndTalk.executor": "Run",
-    "Python.Xpath.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.asyncio_picture.executor": "Run",
-    "Python.beike.executor": "Run",
-    "Python.bs4.executor": "Run",
-    "Python.bs4_test.executor": "Run",
-    "Python.b站视频下载.executor": "Run",
-    "Python.caizhao.executor": "Run",
-    "Python.chaojiying.executor": "Run",
-    "Python.errorhandler.executor": "Run",
-    "Python.get_publickey.executor": "Run",
-    "Python.hash_test.executor": "Run",
-    "Python.mytoken.executor": "Run",
-    "Python.re.executor": "Run",
-    "Python.selenium_1.executor": "Run",
-    "Python.selenium_2.executor": "Run",
-    "Python.selenium_authentic_1.executor": "Run",
-    "Python.selenium_authentic_picture.executor": "Run",
-    "Python.selenium_authentic_slider.executor": "Run",
-    "Python.selenium_bili.executor": "Run",
-    "Python.selenium_test.executor": "Run",
-    "Python.selenium_tianya.executor": "Run",
-    "Python.selenium_ticket.executor": "Run",
-    "Python.selenium_yemian.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.thread_Novel.executor": "Run",
-    "Python.thread_test.executor": "Run",
-    "Python.天翼云.executor": "Run",
-    "Python.对称加密.executor": "Run",
-    "Python.对称加密_DES.executor": "Run",
-    "Python.快手视频下载.executor": "Run",
-    "Python.爬虫.executor": "Run",
-    "Python.王者荣耀图片爬取.executor": "Run",
-    "Python.虎牙视频下载.executor": "Run",
-    "Python.贝壳登录.executor": "Run",
-    "Python.非对称加密.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SHELLCHECK.PATH": "C:\\Users\\mengta\\AppData\\Roaming\\JetBrains\\PyCharm2025.1\\plugins\\Shell Script\\shellcheck.exe",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "22.15.0",
-    "javascript.nodejs.core.library.typings.version": "22.15.17",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "E:/python/spider/小项目",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "E:\\python\\PyCharm 2024.3.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript 调试.hello.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript 调试.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript 调试.jQuery.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.81.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.96.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.G妹游戏登录.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.X-Zse.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.beike.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.browser-env.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.caizhao.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.hash_test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index_encrypt.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.mytoken.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.puppeteer_81.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.rand2.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.webpack 加载器.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.代理与反射.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.作用域.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.函数.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.函数与对象.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.判断与循环.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.变量.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.天翼云登录.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.对称加密.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.数组.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.非对称加密.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.面向对象.js.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.scrapy_quotes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AES_256_key.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Acfun  视频下载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CalculateDistance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LowEndTalk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Xpath.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.asyncio_picture.executor&quot;: &quot;Run&quot;,
+    &quot;Python.beike.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bs4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bs4_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.b站视频下载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.caizhao.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chaojiying.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_cookie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cookies.executor&quot;: &quot;Run&quot;,
+    &quot;Python.curl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.encrypt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.errorhandler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_publickey.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hash_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jiexi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.log.executor&quot;: &quot;Run&quot;,
+    &quot;Python.login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mytoken.executor&quot;: &quot;Run&quot;,
+    &quot;Python.other.executor&quot;: &quot;Run&quot;,
+    &quot;Python.re.executor&quot;: &quot;Run&quot;,
+    &quot;Python.refresh_cookies.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_authentic_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_authentic_picture.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_authentic_slider.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_bili.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_tianya.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_ticket.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_yemian.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tasks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.thread_Novel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.thread_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zhihu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zhihu_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.天翼云.executor&quot;: &quot;Run&quot;,
+    &quot;Python.对称加密.executor&quot;: &quot;Run&quot;,
+    &quot;Python.对称加密_DES.executor&quot;: &quot;Run&quot;,
+    &quot;Python.快手视频下载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.爬虫.executor&quot;: &quot;Run&quot;,
+    &quot;Python.王者荣耀图片爬取.executor&quot;: &quot;Run&quot;,
+    &quot;Python.虎牙视频下载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.贝壳登录.executor&quot;: &quot;Run&quot;,
+    &quot;Python.非对称加密.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\mengta\\AppData\\Roaming\\JetBrains\\PyCharm2025.1\\plugins\\Shell Script\\shellcheck.exe&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.15.17&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/python/spider/project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\python\\PyCharm 2024.3.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\spider\project" />
+      <recent name="E:\python\spider\project\zhihu_login\cnf" />
+      <recent name="E:\python\spider\selenium\知乎登录" />
       <recent name="E:\python\spider\小项目" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\python\spider\learn\对称加密" />
-      <recent name="E:\python\spider\learn" />
-      <recent name="E:\python\spider\selenium" />
-      <recent name="E:\python\spider\selenium\picture" />
-      <recent name="E:\python\spider\selenium\picture\douban" />
+      <recent name="E:\python\spider\project\zhihu\知乎逆向" />
+      <recent name="E:\python\spider\project\zhihu" />
+      <recent name="E:\python\spider\selenium\username_password" />
+      <recent name="E:\python\spider\scrapy_test\scrapy_test" />
+      <recent name="E:\python\spider\scrapy_test" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/spider/learn/hello.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript 调试.hello.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -269,7 +339,56 @@
       <workItem from="1748829949636" duration="6157000" />
       <workItem from="1748843456300" duration="13663000" />
       <workItem from="1748867336231" duration="5000" />
-      <workItem from="1748870194091" duration="1148000" />
+      <workItem from="1748870194091" duration="1567000" />
+      <workItem from="1748871783877" duration="75000" />
+      <workItem from="1748911384149" duration="1151000" />
+      <workItem from="1748952890995" duration="717000" />
+      <workItem from="1748964817094" duration="1677000" />
+      <workItem from="1749011837219" duration="15092000" />
+      <workItem from="1749125210020" duration="4900000" />
+      <workItem from="1749180932919" duration="145000" />
+      <workItem from="1749181087750" duration="1860000" />
+      <workItem from="1749187684516" duration="10231000" />
+      <workItem from="1749346764104" duration="7498000" />
+      <workItem from="1749375258368" duration="170000" />
+      <workItem from="1749383083247" duration="13635000" />
+      <workItem from="1749396915403" duration="46000" />
+      <workItem from="1749433290764" duration="5225000" />
+      <workItem from="1749438656340" duration="594000" />
+      <workItem from="1749440902983" duration="122000" />
+      <workItem from="1749441035888" duration="204000" />
+      <workItem from="1749442711465" duration="19186000" />
+      <workItem from="1749472253812" duration="5870000" />
+      <workItem from="1749478207702" duration="902000" />
+      <workItem from="1749526707014" duration="444000" />
+      <workItem from="1749532376604" duration="24012000" />
+      <workItem from="1749690677786" duration="12245000" />
+      <workItem from="1749706465178" duration="64000" />
+      <workItem from="1749709167382" duration="2983000" />
+      <workItem from="1749794425749" duration="25437000" />
+      <workItem from="1749865150799" duration="7770000" />
+      <workItem from="1749882165182" duration="15601000" />
+      <workItem from="1749900883050" duration="2306000" />
+      <workItem from="1749954272353" duration="10778000" />
+      <workItem from="1749967539240" duration="4047000" />
+      <workItem from="1750126471521" duration="131000" />
+      <workItem from="1750388742917" duration="359000" />
+      <workItem from="1750389110363" duration="4000" />
+      <workItem from="1750389814583" duration="4050000" />
+      <workItem from="1750472950044" duration="19000" />
+      <workItem from="1756624336108" duration="9772000" />
+      <workItem from="1756798125875" duration="79000" />
+      <workItem from="1756798214289" duration="952000" />
+      <workItem from="1756948400752" duration="613000" />
+      <workItem from="1757206818635" duration="8000" />
+      <workItem from="1757644663550" duration="4000" />
+      <workItem from="1757644692673" duration="578000" />
+      <workItem from="1757825100905" duration="632000" />
+      <workItem from="1760509911949" duration="729000" />
+      <workItem from="1765369855266" duration="269000" />
+      <workItem from="1766310453552" duration="276000" />
+      <workItem from="1766310748266" duration="201000" />
+      <workItem from="1766310959369" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <option name="closed" value="true" />
@@ -511,7 +630,95 @@
       <option name="project" value="LOCAL" />
       <updated>1748604585997</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="js逆向 最后部分代码（包含webpack）">
+      <option name="closed" value="true" />
+      <created>1748871704621</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1748871704621</updated>
+    </task>
+    <task id="LOCAL-00032" summary="js逆向 百度网盘解析站逆向加密">
+      <option name="closed" value="true" />
+      <created>1749029012124</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1749029012124</updated>
+    </task>
+    <task id="LOCAL-00033" summary="js逆向 百度网盘解析站逆向加密">
+      <option name="closed" value="true" />
+      <created>1749029795409</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1749029795409</updated>
+    </task>
+    <task id="LOCAL-00034" summary="天猫商品数据提取工具">
+      <option name="closed" value="true" />
+      <created>1749477886848</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1749477886848</updated>
+    </task>
+    <task id="LOCAL-00035" summary="天猫商品数据提取工具">
+      <option name="closed" value="true" />
+      <created>1749478130894</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1749478130894</updated>
+    </task>
+    <task id="LOCAL-00036" summary="天猫商品数据提取工具">
+      <option name="closed" value="true" />
+      <created>1749479092951</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1749479092951</updated>
+    </task>
+    <task id="LOCAL-00037" summary="天猫商品数据提取工具">
+      <option name="closed" value="true" />
+      <created>1749526754910</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1749526754910</updated>
+    </task>
+    <task id="LOCAL-00038" summary="天猫商品数据提取工具">
+      <option name="closed" value="true" />
+      <created>1749526975375</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1749526975375</updated>
+    </task>
+    <task id="LOCAL-00039" summary="天猫商品数据提取工具">
+      <option name="closed" value="true" />
+      <created>1749527038196</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1749527038196</updated>
+    </task>
+    <task id="LOCAL-00040" summary="天猫商品数据提取工具">
+      <option name="closed" value="true" />
+      <created>1749527087861</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1749527087861</updated>
+    </task>
+    <task id="LOCAL-00041" summary="天猫商品数据提取工具">
+      <option name="closed" value="true" />
+      <created>1749534347419</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1749534347419</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,41 +761,71 @@
     <MESSAGE value="LowEndTalk 优惠监控" />
     <MESSAGE value="改" />
     <MESSAGE value="LowEndTalk 优惠监控 bug修复" />
-    <option name="LAST_COMMIT_MESSAGE" value="LowEndTalk 优惠监控 bug修复" />
+    <MESSAGE value="js逆向 最后部分代码（包含webpack）" />
+    <MESSAGE value="js逆向 百度网盘解析站逆向加密" />
+    <MESSAGE value="天猫商品数据提取工具" />
+    <option name="LAST_COMMIT_MESSAGE" value="天猫商品数据提取工具" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_test/scrapy_test/middlewares.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/spider$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1746975343873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/anaconda3/envs/spider/Lib/site-packages/pyautogui" />
+    <SUITE FILE_PATH="coverage/spider$other.coverage" NAME="other 覆盖结果" MODIFIED="1749959805149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu" />
+    <SUITE FILE_PATH="coverage/spider$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1756628469097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/Scheduler_task" />
+    <SUITE FILE_PATH="coverage/spider$cookies.coverage" NAME="cookies 覆盖结果" MODIFIED="1749705958951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/api" />
     <SUITE FILE_PATH="coverage/spider$selenium_tianya.coverage" NAME="selenium_tianya 覆盖结果" MODIFIED="1746942106230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
-    <SUITE FILE_PATH="coverage/spider$re.coverage" NAME="re 覆盖结果" MODIFIED="1746613788990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
-    <SUITE FILE_PATH="coverage/spider$selenium_authentic_slider.coverage" NAME="selenium_authentic_slider 覆盖结果" MODIFIED="1747049412199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
-    <SUITE FILE_PATH="coverage/spider$selenium_test.coverage" NAME="selenium_test 覆盖结果" MODIFIED="1746937926096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$CalculateDistance.coverage" NAME="CalculateDistance 覆盖结果" MODIFIED="1747012191054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$config.coverage" NAME="config 覆盖结果" MODIFIED="1749446925822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/api" />
+    <SUITE FILE_PATH="coverage/spider$app.coverage" NAME="app 覆盖结果" MODIFIED="1747494673884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/java_script/一个天气预报网页" />
+    <SUITE FILE_PATH="coverage/spider$_DES.coverage" NAME="对称加密_DES 覆盖结果" MODIFIED="1747705074425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn/对称加密" />
+    <SUITE FILE_PATH="coverage/spider$selenium_2.coverage" NAME="selenium_2 覆盖结果" MODIFIED="1746941015427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$selenium_bili.coverage" NAME="selenium_bili 覆盖结果" MODIFIED="1747051931368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$mytoken.coverage" NAME="mytoken 覆盖结果" MODIFIED="1748858099568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/java_script/js加密扒网站源码/加密货币实时信息获取" />
+    <SUITE FILE_PATH="coverage/spider$jiexi.coverage" NAME="jiexi 覆盖结果" MODIFIED="1749029677696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/java_script/js加密扒网站源码/百度连接解析站" />
+    <SUITE FILE_PATH="coverage/spider$selenium_authentic_1.coverage" NAME="selenium_authentic_1 覆盖结果" MODIFIED="1746972574714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$Acfun__.coverage" NAME="Acfun  视频下载 覆盖结果" MODIFIED="1747110368387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$.coverage" NAME=" 覆盖结果" MODIFIED="1749347101603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/spider$login.coverage" NAME="login 覆盖结果" MODIFIED="1756630987715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/zhihu_login" />
+    <SUITE FILE_PATH="coverage/spider$zhihu_login.coverage" NAME="zhihu_login 覆盖结果" MODIFIED="1749444943819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/zhihu_login" />
+    <SUITE FILE_PATH="coverage/spider$selenium_authentic_picture.coverage" NAME="selenium_authentic_picture 覆盖结果" MODIFIED="1747007951668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$main.coverage" NAME="main 覆盖结果" MODIFIED="1757644714042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu" />
+    <SUITE FILE_PATH="coverage/spider$selenium_1.coverage" NAME="selenium_1 覆盖结果" MODIFIED="1746938896975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$Xpath.coverage" NAME="Xpath 覆盖结果" MODIFIED="1746678196215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$zhihu.coverage" NAME="zhihu 覆盖结果" MODIFIED="1749819214758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/zhihu/zhihu/spiders" />
+    <SUITE FILE_PATH="coverage/spider$chaojiying.coverage" NAME="chaojiying 覆盖结果" MODIFIED="1746969228702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chaojiying_Python" />
+    <SUITE FILE_PATH="coverage/spider$log.coverage" NAME="log 覆盖结果" MODIFIED="1749535705894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/Scheduler_task" />
+    <SUITE FILE_PATH="coverage/spider$asyncio_picture.coverage" NAME="asyncio_picture 覆盖结果" MODIFIED="1746931423418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$refresh_cookies.coverage" NAME="refresh_cookies 覆盖结果" MODIFIED="1749545240660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/Scheduler_task" />
+    <SUITE FILE_PATH="coverage/spider$api.coverage" NAME="api 覆盖结果" MODIFIED="1749458318190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/api" />
+    <SUITE FILE_PATH="coverage/spider$re.coverage" NAME="re 覆盖结果" MODIFIED="1746613788990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$selenium_test.coverage" NAME="selenium_test 覆盖结果" MODIFIED="1746937926096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$selenium_authentic_slider.coverage" NAME="selenium_authentic_slider 覆盖结果" MODIFIED="1747049412199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/spider$encrypt.coverage" NAME="encrypt 覆盖结果" MODIFIED="1749709687188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/api" />
     <SUITE FILE_PATH="coverage/spider$selenium_yemian.coverage" NAME="selenium_yemian 覆盖结果" MODIFIED="1746949381471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$thread_test.coverage" NAME="thread_test 覆盖结果" MODIFIED="1746795235751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
     <SUITE FILE_PATH="coverage/spider$bs4_test.coverage" NAME="bs4_test 覆盖结果" MODIFIED="1746769295721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
-    <SUITE FILE_PATH="coverage/spider$test.coverage" NAME="test 覆盖结果" MODIFIED="1748836943623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/websocket爬取" />
-    <SUITE FILE_PATH="coverage/spider$app.coverage" NAME="app 覆盖结果" MODIFIED="1747494673884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/java_script/一个天气预报网页" />
+    <SUITE FILE_PATH="coverage/spider$test.coverage" NAME="test 覆盖结果" MODIFIED="1756635810433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu" />
     <SUITE FILE_PATH="coverage/spider$LowEndTalk.coverage" NAME="LowEndTalk 覆盖结果" MODIFIED="1748589200780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小项目/LowEndTalk" />
     <SUITE FILE_PATH="coverage/spider$beike.coverage" NAME="beike 覆盖结果" MODIFIED="1748870758612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/java_script/js加密扒网站源码/贝壳找房" />
-    <SUITE FILE_PATH="coverage/spider$_DES.coverage" NAME="对称加密_DES 覆盖结果" MODIFIED="1747705074425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn/对称加密" />
     <SUITE FILE_PATH="coverage/spider$bs4.coverage" NAME="bs4 覆盖结果" MODIFIED="1746766451947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
-    <SUITE FILE_PATH="coverage/spider$selenium_2.coverage" NAME="selenium_2 覆盖结果" MODIFIED="1746941015427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$selenium_ticket.coverage" NAME="selenium_ticket 覆盖结果" MODIFIED="1746967904396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
-    <SUITE FILE_PATH="coverage/spider$selenium_bili.coverage" NAME="selenium_bili 覆盖结果" MODIFIED="1747051931368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
-    <SUITE FILE_PATH="coverage/spider$mytoken.coverage" NAME="mytoken 覆盖结果" MODIFIED="1748858099568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/java_script/js加密扒网站源码/加密货币实时信息获取" />
+    <SUITE FILE_PATH="coverage/spider$curl.coverage" NAME="curl 覆盖结果" MODIFIED="1749963920681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu" />
     <SUITE FILE_PATH="coverage/spider$get_publickey.coverage" NAME="get_publickey 覆盖结果" MODIFIED="1748870756177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/java_script/js加密扒网站源码/贝壳找房" />
-    <SUITE FILE_PATH="coverage/spider$selenium_authentic_1.coverage" NAME="selenium_authentic_1 覆盖结果" MODIFIED="1746972574714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
-    <SUITE FILE_PATH="coverage/spider$Acfun__.coverage" NAME="Acfun  视频下载 覆盖结果" MODIFIED="1747110368387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$AES_256_key.coverage" NAME="AES_256_key 覆盖结果" MODIFIED="1749701721823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/api" />
     <SUITE FILE_PATH="coverage/spider$caizhao.coverage" NAME="caizhao 覆盖结果" MODIFIED="1747710074166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn/对称加密" />
-    <SUITE FILE_PATH="coverage/spider$.coverage" NAME="贝壳登录 覆盖结果" MODIFIED="1748871291498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/java_script/js加密扒网站源码/贝壳找房" />
-    <SUITE FILE_PATH="coverage/spider$selenium_authentic_picture.coverage" NAME="selenium_authentic_picture 覆盖结果" MODIFIED="1747007951668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$thread_Novel.coverage" NAME="thread_Novel 覆盖结果" MODIFIED="1746847589945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
-    <SUITE FILE_PATH="coverage/spider$selenium_1.coverage" NAME="selenium_1 覆盖结果" MODIFIED="1746938896975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
     <SUITE FILE_PATH="coverage/spider$hash_test.coverage" NAME="hash_test 覆盖结果" MODIFIED="1747702028684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn/哈希加密" />
-    <SUITE FILE_PATH="coverage/spider$Xpath.coverage" NAME="Xpath 覆盖结果" MODIFIED="1746678196215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
+    <SUITE FILE_PATH="coverage/spider$tasks.coverage" NAME="tasks 覆盖结果" MODIFIED="1749545445954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/Scheduler_task" />
     <SUITE FILE_PATH="coverage/spider$b.coverage" NAME="b站视频下载 覆盖结果" MODIFIED="1747120814070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
-    <SUITE FILE_PATH="coverage/spider$chaojiying.coverage" NAME="chaojiying 覆盖结果" MODIFIED="1746969228702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chaojiying_Python" />
+    <SUITE FILE_PATH="coverage/spider$check_cookie.coverage" NAME="check_cookie 覆盖结果" MODIFIED="1756635641165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/zhihu/zhihu_login" />
     <SUITE FILE_PATH="coverage/spider$errorhandler.coverage" NAME="errorhandler 覆盖结果" MODIFIED="1746969881110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/anaconda3/envs/spider/Lib/site-packages/selenium/webdriver/remote" />
-    <SUITE FILE_PATH="coverage/spider$asyncio_picture.coverage" NAME="asyncio_picture 覆盖结果" MODIFIED="1746931423418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
   </component>
 </project>

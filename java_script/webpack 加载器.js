@@ -24,5 +24,5 @@
     }
 })
 
-global.e( 'a')
+console.log( global.e( 'a'))
 

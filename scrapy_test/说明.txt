@@ -1,0 +1,11 @@
+
+-d scrapy_test                  根目录
+    -d scrapy_test                      项目的模块，引入从这里引入
+        -d spiders                              放置各种爬虫的文件夹（自写爬虫）
+            -- __init__.py
+        -- items.py                             定义爬取的数据结构
+        -- middlewares.py                       定义爬取时的中间件
+        -- pipelines.py                         定义数据管道
+        -- settings.py                          配置文件
+        -- __init__.py
+    -- scrapy.cfg                       scrapy部署时的配置文件
