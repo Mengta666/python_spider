@@ -1,0 +1,462 @@
+[INFO] 2025-06-15 11:39:31  login.py[line:238]  开始登录...
+[INFO] 2025-06-15 11:39:44  login.py[line:103]  已保存带红框的预测图片至: E:\python\spider\project\zhihu\zhihu_login\train_pic_json\pic_json_1749958783\output_with_box.png
+[INFO] 2025-06-15 11:39:54  login.py[line:355]  第 1 次尝试登录成功
+[INFO] 2025-06-15 11:39:54  login.py[line:412]  登录成功，获取到cookies!
+[INFO] 2025-06-15 11:39:54  login.py[line:414]  开始利用登录cookie获取其他cookie
+[INFO] 2025-06-15 11:40:00  login.py[line:419]  获取其他cookie完成
+[INFO] 2025-08-31 16:54:02  login.py[line:238]  开始登录...
+[WARNING] 2025-08-31 16:54:05  login.py[line:364]  第 1 次尝试失败 - 未知错误: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+Traceback (most recent call last):
+  File "E:\python\spider\project\zhihu\zhihu_login\login.py", line 249, in login
+    driver = WebDriver(service=service, options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 67, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 260, in __init__
+    self.start_session(capabilities)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 357, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+
+[WARNING] 2025-08-31 16:54:08  login.py[line:364]  第 2 次尝试失败 - 未知错误: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+Traceback (most recent call last):
+  File "E:\python\spider\project\zhihu\zhihu_login\login.py", line 249, in login
+    driver = WebDriver(service=service, options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 67, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 260, in __init__
+    self.start_session(capabilities)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 357, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+
+[ERROR] 2025-08-31 16:54:08  login.py[line:372]  所有登录尝试均失败
+[WARNING] 2025-08-31 16:54:08  login.py[line:423]  所有尝试均失败: 所有登录尝试均失败，稍后重试或联系管理员查询日志
+Traceback (most recent call last):
+  File "E:\python\spider\project\zhihu\zhihu_login\login.py", line 410, in main
+    raise RuntimeError("所有登录尝试均失败，稍后重试或联系管理员查询日志")
+RuntimeError: 所有登录尝试均失败，稍后重试或联系管理员查询日志
+
+[INFO] 2025-08-31 16:57:15  login.py[line:238]  开始登录...
+[WARNING] 2025-08-31 16:57:18  login.py[line:364]  第 1 次尝试失败 - 未知错误: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+Traceback (most recent call last):
+  File "E:\python\spider\project\zhihu\zhihu_login\login.py", line 249, in login
+    driver = WebDriver(service=service, options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 67, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 260, in __init__
+    self.start_session(capabilities)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 357, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+
+[WARNING] 2025-08-31 16:57:22  login.py[line:364]  第 2 次尝试失败 - 未知错误: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+Traceback (most recent call last):
+  File "E:\python\spider\project\zhihu\zhihu_login\login.py", line 249, in login
+    driver = WebDriver(service=service, options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 67, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 260, in __init__
+    self.start_session(capabilities)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 357, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+
+[ERROR] 2025-08-31 16:57:22  login.py[line:372]  所有登录尝试均失败
+[WARNING] 2025-08-31 16:57:22  login.py[line:423]  所有尝试均失败: 所有登录尝试均失败，稍后重试或联系管理员查询日志
+Traceback (most recent call last):
+  File "E:\python\spider\project\zhihu\zhihu_login\login.py", line 410, in main
+    raise RuntimeError("所有登录尝试均失败，稍后重试或联系管理员查询日志")
+RuntimeError: 所有登录尝试均失败，稍后重试或联系管理员查询日志
+
+[INFO] 2025-08-31 16:58:57  login.py[line:238]  开始登录...
+[WARNING] 2025-08-31 16:59:00  login.py[line:364]  第 1 次尝试失败 - 未知错误: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+Traceback (most recent call last):
+  File "E:\python\spider\project\zhihu\zhihu_login\login.py", line 249, in login
+    driver = WebDriver(service=service, options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 67, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 260, in __init__
+    self.start_session(capabilities)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 357, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+
+[WARNING] 2025-08-31 16:59:04  login.py[line:364]  第 2 次尝试失败 - 未知错误: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+Traceback (most recent call last):
+  File "E:\python\spider\project\zhihu\zhihu_login\login.py", line 249, in login
+    driver = WebDriver(service=service, options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 67, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 260, in __init__
+    self.start_session(capabilities)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 357, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "D:\anaconda3\envs\spider\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.154 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7432ffea5+79173]
+	GetHandleVerifier [0x0x7ff7432fff00+79264]
+	(No symbol) [0x0x7ff7430b9e5a]
+	(No symbol) [0x0x7ff7430fe26f]
+	(No symbol) [0x0x7ff7430fd2bb]
+	(No symbol) [0x0x7ff7430f68ed]
+	(No symbol) [0x0x7ff7430f2b1d]
+	(No symbol) [0x0x7ff7431467de]
+	(No symbol) [0x0x7ff743145f70]
+	(No symbol) [0x0x7ff743138743]
+	(No symbol) [0x0x7ff7431014c1]
+	(No symbol) [0x0x7ff743102253]
+	GetHandleVerifier [0x0x7ff7435ca2dd+3004797]
+	GetHandleVerifier [0x0x7ff7435c472d+2981325]
+	GetHandleVerifier [0x0x7ff7435e3380+3107360]
+	GetHandleVerifier [0x0x7ff74331aa2e+188622]
+	GetHandleVerifier [0x0x7ff7433222bf+219487]
+	GetHandleVerifier [0x0x7ff743308df4+115860]
+	GetHandleVerifier [0x0x7ff743308fa9+116297]
+	GetHandleVerifier [0x0x7ff7432ef558+11256]
+	BaseThreadInitThunk [0x0x7ff9cbaf7374+20]
+	RtlUserThreadStart [0x0x7ff9cd39cc91+33]
+
+
+[ERROR] 2025-08-31 16:59:04  login.py[line:372]  所有登录尝试均失败
+[WARNING] 2025-08-31 16:59:04  login.py[line:423]  所有尝试均失败: 所有登录尝试均失败，稍后重试或联系管理员查询日志
+Traceback (most recent call last):
+  File "E:\python\spider\project\zhihu\zhihu_login\login.py", line 410, in main
+    raise RuntimeError("所有登录尝试均失败，稍后重试或联系管理员查询日志")
+RuntimeError: 所有登录尝试均失败，稍后重试或联系管理员查询日志
+
+[INFO] 2025-08-31 17:03:11  login.py[line:238]  开始登录...
+[INFO] 2025-08-31 17:03:24  login.py[line:103]  已保存带红框的预测图片至: E:\python\spider\project\zhihu\zhihu_login\train_pic_json\pic_json_1756631002\output_with_box.png
+[INFO] 2025-08-31 17:03:32  login.py[line:355]  第 1 次尝试登录成功
+[INFO] 2025-08-31 17:03:32  login.py[line:412]  登录成功，获取到cookies!
+[INFO] 2025-08-31 17:03:32  login.py[line:414]  开始利用登录cookie获取其他cookie
+[INFO] 2025-08-31 17:03:36  login.py[line:419]  获取其他cookie完成
+[INFO] 2025-08-31 18:14:35  login.py[line:238]  开始登录...
+[INFO] 2025-08-31 18:14:48  login.py[line:103]  已保存带红框的预测图片至: E:\python\spider\project\zhihu\zhihu_login\train_pic_json\pic_json_1756635287\output_with_box.png
+[INFO] 2025-08-31 18:15:01  login.py[line:355]  第 1 次尝试登录成功
+[INFO] 2025-08-31 18:15:01  login.py[line:412]  登录成功，获取到cookies!
+[INFO] 2025-08-31 18:15:01  login.py[line:414]  开始利用登录cookie获取其他cookie
+[INFO] 2025-08-31 18:15:05  login.py[line:419]  获取其他cookie完成

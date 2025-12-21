@@ -1,0 +1,15 @@
+requests==2.31.0
+torch==2.7.1+cpu
+torchvision==0.22.1+cpu
+numpy==2.2.5
+pyautogui==0.9.53
+selenium==4.32.0
+Pillow==11.2.1
+configparser==7.2.0
+pymongo==4.13.0
+flask==3.1.1
+apscheduler==3.11.0
+
+# pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+# pip install safety
+# safety check -r requirements.txt  # 检查已知漏洞
